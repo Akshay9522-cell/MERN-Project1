@@ -17,11 +17,18 @@ const Insert= async (req,res)=>{
     res.send(saveData)
 }
 
+const Display=async(req,res)=>{
+     const data =  await empModel.find()
+
+        res.send( data)
+}
+
 
 
 
 
 module.exports={
     Home,
-    Insert   
+    Insert,
+    Display   
 }
