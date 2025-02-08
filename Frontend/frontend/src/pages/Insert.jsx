@@ -29,8 +29,8 @@ const Insert = () => {
        EmpID:<input type='number' name="id" onChange={handleInput}/> <br />
       EmpName:<input type='text' name="name" onChange={handleInput} /> <br />
       EmpPost:<input type='text' name="post" onChange={handleInput} /> <br />
-      EmpSalary:<input type='number' name="ssalary" onChange={handleInput} /> <br />
-      EmpSkills:<input type='text' name="skills" onChange={handleInput}/> <br />
+      EmpSalary:<input type='number' name="salary" onChange={handleInput} /> <br />
+      EmpSkills:<input type='text' name="skill" onChange={handleInput}/> <br />
 
       <button onClick={handleSubmit}>save </button>
     </div>
